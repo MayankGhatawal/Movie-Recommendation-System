@@ -102,3 +102,51 @@ Feel free to fork this repository and submit pull requests. For major changes, p
 
 ## License
 This project is licensed under the **MIT License**.
+
+
+                       +----------------------------------+
+                       |         User Selected Movie      |
+                       +----------------------------------+
+                                     |
+                                     v
+                        +----------------------------+
+                        |      Feature Extraction     |
+                        | (Genres, Rating, Director,  |
+                        |  Cast, Release Year)        |
+                        +----------------------------+
+                                     |
+                                     v
+                   +--------------------------------------+
+                   |         Feature Representation       |
+                   | (Vectorization, TF-IDF, Embeddings) |
+                   +--------------------------------------+
+                                     |
+                                     v
+                       +-----------------------------+
+                       |    Similarity Calculation   |
+                       |    (Cosine, Euclidean)      |
+                       +-----------------------------+
+                                     |
+                                     v
+                    +--------------------------------------+
+                    |          Recommendation Engine       |
+                    |        (Content-Based Filtering)     |
+                    +--------------------------------------+
+                                     |
+                                     v
+                      +------------------------------+
+                      |        MongoDB Database      |
+                      | (Movie Data with Feature     |
+                      |  Vectors)                    |
+                      +------------------------------+
+                                     |
+                                     v
+                    +--------------------------------------+
+                    |         Rank and Recommend          |
+                    +--------------------------------------+
+                                     |
+                                     v
+                  +--------------------------------------+
+                  |     Recommended Movies Display       |
+                  +--------------------------------------+
+
