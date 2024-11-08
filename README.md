@@ -3,6 +3,7 @@
 ## Overview
 This **Movie Recommendation System** is a web application that suggests movies based on user input. The system uses a **content-based recommendation algorithm** to recommend movies similar to those the user likes. The frontend is built using **Streamlit**, and the backend processes are powered by **machine learning**.
 
+
 ## Features
 - Users can search for a movie and get a list of similar movies.
 - Movie recommendations are based on features such as genre, plot, and user ratings.
