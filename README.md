@@ -14,7 +14,6 @@ This **Movie Recommendation System** is a web application that suggests movies b
 ## Project Architecture
 - **Frontend**: Streamlit for the user interface.
 - **Backend**: Python-based Machine Learning model using `sklearn`.
-- 
 - **Database**: MongoDB (optional for storing user ratings or movie metadata).
 - **Model**: Content-based recommendation using cosine similarity.
 
